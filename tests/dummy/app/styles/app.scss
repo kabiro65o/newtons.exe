@@ -1,0 +1,29 @@
+@import 'fonts';
+
+$color-tan: #f5f0e1;
+$heading-font-size: 5vw;
+
+$ember-newton-cradle-loader: (
+  'cradle-size': 1em,
+  'swing-distance': 1.5,
+  'shadow-distance': 1,
+  'animation-duration': 0.425s,
+  'gradient-start': #385c78,
+  'gradient-end': #db412c
+);
+
+@import 'ember-newton-cradle-loader';
+
+body {
+  background: #3d2f53;
+  color: $color-tan;
+  font-family: $f-primary;
+}
+
+h1 {
+  font-size: $heading-font-size;
+}
+
+.pacifico {
+  font-family: $f-pacifico;
+}
